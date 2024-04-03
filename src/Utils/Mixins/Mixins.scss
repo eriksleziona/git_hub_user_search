@@ -1,0 +1,11 @@
+@mixin dark-mode {
+  --background-color: #141d2f;
+  --card-background-color: #1e2a47;
+  --font-color: #ffffff;
+}
+
+@mixin light-mode {
+  --background-color: #f6f8ff;
+  --card-background-color: #fefefe;
+  --font-color: #2b3442;
+}
