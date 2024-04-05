@@ -32,3 +32,8 @@ export interface UserGitHubApi {
   updated_at: Date;
   url: string;
 }
+
+export type AppContextType = {
+  isDark: boolean;
+  setIsDark: React.Dispatch<React.SetStateAction<boolean>>;
+};
