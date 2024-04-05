@@ -1,3 +1,5 @@
+import React from "react";
+
 export interface UserGitHubApi {
   avatar_url: string;
   bio: null;
@@ -35,5 +37,7 @@ export interface UserGitHubApi {
 
 export type AppContextType = {
   isDark: boolean;
+  userName: string | null;
   setIsDark: React.Dispatch<React.SetStateAction<boolean>>;
+  setUserName: React.Dispatch<React.SetStateAction<string>>;
 };
