@@ -10,11 +10,8 @@
   &__input {
     border: none;
     outline-width: 0;
-    width: 30%;
-  }
-
-  &__input {
-    border: red;
+    width: 50%;
+    font-size: 18px;
   }
 
   &__bnt {
@@ -25,8 +22,6 @@
     color: #f3f3f3;
     font-size: 16px;
     font-weight: bold;
-    &-primary {
-    }
   }
 
   &__bnt:hover {
