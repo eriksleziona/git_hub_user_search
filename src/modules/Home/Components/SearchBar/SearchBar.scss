@@ -1,0 +1,35 @@
+.searchbar-container {
+  display: flex;
+  margin-top: 36px;
+  justify-content: space-between;
+  padding: 9.5px 10px 9.5px 32px;
+  background-color: #fefefe;
+  border-radius: 15px;
+  box-shadow: rgba(0, 0, 0, 0.05) 0px 10px 20px, rgba(0, 0, 0, 0.05) 0px 6px 6px;
+
+  &__input {
+    border: none;
+    outline-width: 0;
+    width: 30%;
+  }
+
+  &__input {
+    border: red;
+  }
+
+  &__bnt {
+    padding: 12.5px 24px 13.5px 24px;
+    background-color: #0079ff;
+    border-radius: 10px;
+    border: none;
+    color: #f3f3f3;
+    font-size: 16px;
+    font-weight: bold;
+    &-primary {
+    }
+  }
+
+  &__bnt:hover {
+    cursor: pointer;
+  }
+}
