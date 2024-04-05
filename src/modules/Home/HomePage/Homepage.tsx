@@ -1,11 +1,12 @@
 import { FC } from "react";
 import Container from "../Components/Container/Container";
+import Title from "../Components/Title/Title";
 
 const Homepage: FC = () => {
   return (
     <div>
       <Container>
-        <div></div>
+        <Title />
       </Container>
     </div>
   );

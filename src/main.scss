@@ -1,0 +1,12 @@
+@import url("https://fonts.googleapis.com/css2?family=Space+Mono:ital,wght@0,400;0,700;1,400;1,700&display=swap");
+
+:root {
+  --background-color: #f6f8ff;
+  --card-background-color: #fefefe;
+  --font-color: #2b3442;
+}
+
+body {
+  font-family: "Space Mono", monospace;
+  background-color: var(--background-color);
+}

@@ -1,0 +1,28 @@
+.title-container {
+  display: flex;
+  justify-content: space-between;
+  flex-direction: row;
+
+  &__text {
+    font-size: 26px;
+    font-weight: bold;
+    margin: 0;
+  }
+  &__mode {
+    display: flex;
+    gap: 16px;
+  }
+
+  &__mode-text {
+    color: #697c9a;
+    margin: 0;
+    font-size: 13px;
+    font-weight: bold;
+    letter-spacing: 2.5px;
+  }
+
+  &__mode-icon {
+    width: 20px;
+    height: 20px;
+  }
+}
