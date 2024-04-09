@@ -9,12 +9,13 @@
     margin: 0;
   }
   &__mode {
+    color: #697c9a;
     display: flex;
     gap: 16px;
+    transition: all 0.3s ease-in-out;
   }
 
   &__mode-text {
-    color: #697c9a;
     margin: 0;
     font-size: 13px;
     font-weight: bold;
@@ -22,7 +23,10 @@
   }
 
   &__mode-icon {
-    width: 20px;
-    height: 20px;
+    font-size: 20px;
+  }
+
+  &__mode:hover {
+    color: #000;
   }
 }

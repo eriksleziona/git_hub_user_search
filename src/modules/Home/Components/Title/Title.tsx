@@ -1,5 +1,5 @@
 import { FC } from "react";
-import moon from "../../../../assets/moon.svg";
+import { IoMoonSharp } from "react-icons/io5";
 import "./Title.scss";
 const Title: FC = () => {
   return (
@@ -7,7 +7,7 @@ const Title: FC = () => {
       <h1 className="title-container__text">devfinder</h1>
       <div className="title-container__mode">
         <p className="title-container__mode-text">DARK</p>
-        <img src={moon} alt="" className="title-container__mode-icon" />
+        <IoMoonSharp className="title-container__mode-icon" />
       </div>
     </div>
   );

@@ -2,6 +2,8 @@ import { FC } from "react";
 import "./SearchBar.scss";
 import { useGlobalContext } from "../../../../Context/Context";
 import { AppContextType } from "../../../../Context/Context.types";
+import { PiMagnifyingGlassLight } from "react-icons/pi";
+
 const SearchBar: FC = () => {
   const { setUserName } = useGlobalContext() as AppContextType;
 
@@ -11,7 +13,7 @@ const SearchBar: FC = () => {
 
   return (
     <div className="searchbar-container">
-      <img src="" alt="" className="searchbar-container__icon" />
+      <PiMagnifyingGlassLight className="searchbar-container__icon" />
       <input
         type="search"
         className="searchbar-container__input"

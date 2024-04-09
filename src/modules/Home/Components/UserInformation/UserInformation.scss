@@ -1,0 +1,19 @@
+.user-information-container {
+  background-color: #fefefe;
+  margin-top: 24px;
+  padding: 48px 37px;
+  border-radius: 15px;
+  box-shadow: rgba(0, 0, 0, 0.05) 0px 10px 20px, rgba(0, 0, 0, 0.05) 0px 6px 6px;
+
+  display: grid;
+  grid-template-columns: 1fr 3fr;
+
+  &__avatar {
+    img {
+      margin-left: 22px;
+      width: 117px;
+      height: 117px;
+      border-radius: 50%;
+    }
+  }
+}
