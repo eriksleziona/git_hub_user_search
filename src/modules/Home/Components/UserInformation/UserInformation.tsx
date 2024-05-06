@@ -12,7 +12,16 @@ const UserInformation: FC = () => {
         />
       </div>
       <div className="user-information-container__information">
-        <h2>The Octocat</h2>
+        <div className="user-information-container__information-base">
+          <h2>The Octocat</h2>
+          <p> Joined January 25 2011</p>
+        </div>
+        <div className="user-information-container__bio">
+          <p className="user-information-container__bio-username">@octocat</p>
+          <p className="user-information-container__bio-text">
+            This profile has no bio
+          </p>
+        </div>
       </div>
     </div>
   );
